@@ -25,7 +25,7 @@ module Narra
         if model.respond_to?('meta')
           meta = model.meta.new(options)
           # autosave
-          model.save if autosave
+          meta.save if autosave
           # return new meta
           return meta
         end
