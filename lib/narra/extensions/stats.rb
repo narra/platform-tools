@@ -23,6 +23,11 @@ module Narra
         self.update_meta(name: stats, value: stats)
       end
 
+      # update stats field
+      def update_stats
+        self.stats = { items: self.items.count }
+      end
+
       protected
 
       def narra_stats_initialize
