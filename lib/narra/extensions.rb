@@ -10,6 +10,7 @@ require_relative 'extensions/options'
 require_relative 'extensions/progress'
 require_relative 'extensions/public'
 require_relative 'extensions/shared'
+require_relative 'extensions/stats'
 require_relative 'extensions/thumbnail'
 
 module Narra
