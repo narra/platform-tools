@@ -12,7 +12,7 @@ module Narra
         after_create :narra_stats_initialize
       end
 
-      def name
+      def stats
         # get public meta
         meta = get_meta(name: 'stats')
         # return
