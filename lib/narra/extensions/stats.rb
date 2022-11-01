@@ -29,7 +29,7 @@ module Narra
       protected
 
       def narra_stats_initialize
-        self.add_meta(name: 'stats', value: { items: 0 }.to_json, hidden: false, public: true)
+        self.add_meta(name: 'stats', value: { items: 0 }.to_json, hidden: true, public: false)
       end
     end
   end
